@@ -3,6 +3,8 @@ package sonsanimais;
 public class SonsAnimais {
 
     public static void main(String[] args) {
+        
+        //Teste com vetor       
         Animal[] animais ={
             new Cachorro("Thor", 12, 47.984, "Labrador", "Preto", true),
             new Gato("Poly", 4, 3.599, "SRD", "Preta", true),
@@ -15,5 +17,4 @@ public class SonsAnimais {
             a.emitirSom();
         }
     }
-
 }
